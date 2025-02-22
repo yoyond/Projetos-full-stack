@@ -1,15 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
 .alice-regular {
     font-family: "Alice", serif;
     font-weight: 400;
     font-style: normal;
+    color: #573A37;
   }
+  
   
 body {
   background-image: url(imgfiles/bg-image.png) ;
   background-size: cover;
   background-color:#573824;  
+  font-family: "Alice", serif;
 }
 
 #page {
@@ -17,18 +24,47 @@ body {
     background-color: #F0E8C2;
     padding: 24px;
     border-radius: 24px;
-    text-align: left;
     width: 800px;
     height: 1467px;
     margin: 48px auto;
-    
+    line-height: 150%;
 }
 
+main {
+    padding: 24px;
 
+}
 
+section + section {
+    margin-top: 24px;
+  }
+  
+  #about p + p {
+    margin-top: 12px;
+  }
+  
 
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    margin-bottom: 4px;
+    color: #291b1a;
+    line-height: 150%;
+}
 
 img {
     border-radius: 16px;
 }
+
+ul {
+    padding-left: 24px;
+  }
 
